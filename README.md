@@ -1,3 +1,47 @@
+# Movie Search App
+
+This project is a simple movie search app built using React. The app allows users to search for movies or actors, view a list of movie results, sort the results based on different criteria, and view detailed information about each movie.
+
+## Features
+
+- Search for movies or actors
+- Display a list of movie results with posters
+- Sort results by relevance, year, or alphabetical order
+- View detailed information about each movie, including the title, year, genre, director, actors, and plot summary
+
+## How it works
+
+The app uses the [OMDb API](http://www.omdbapi.com/) to fetch movie data based on the user's search query. It fetches data by making requests to the API using the provided API key.
+
+The main components of the app are as follows:
+
+- `MovieSearch`: The main component that contains the search form, sort dropdown, and the movie list.
+- `SearchForm`: A form that allows users to enter their search query and submit it.
+- `SortDropdown`: A dropdown that allows users to select the sort criteria for the displayed movie results.
+- `MovieList`: A component that displays the list of movie results, and manages the selected movie details.
+- `MovieDetailsPanel`: A component that displays the detailed information about a selected movie.
+
+The app uses React Router to manage the routes and display the components accordingly.
+
+## Usage
+
+1. Clone the repository.
+2. Install the required dependencies using `npm install` or `yarn install`.
+3. Start the development server using `npm start` or `yarn start`.
+4. Open a web browser and navigate to `http://localhost:3000` to access the app.
+5. Enter a search query in the search form and press the "Search" button to fetch movie data.
+6. Use the sort dropdown to change the sort criteria for the displayed movie results.
+7. Click on a movie result to view its detailed information in a popup panel.
+
+## Dependencies
+
+- React
+- React Router
+- OMDb API
+
+
+# Additional Information from React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
