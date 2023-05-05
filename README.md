@@ -42,7 +42,7 @@ The app uses React Router to manage the routes and display the components accord
 
 # Additional Information from React
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
